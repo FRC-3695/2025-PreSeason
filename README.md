@@ -1,6 +1,6 @@
 ![logo](/Images/Logo.png?raw=true)
 ## Code Health
-"Replace with CodeFactor MarkDown Insert"
+[![CodeFactor](https://www.codefactor.io/repository/github/frc-3695/2025-preseason/badge)](https://www.codefactor.io/repository/github/frc-3695/2025-preseason)
 ## Season Notes
 ## Code Notes
 ## Contributors
