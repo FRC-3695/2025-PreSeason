@@ -1,0 +1,21 @@
+[
+  {
+    "type": "java",
+    "name": "jar (in project Robot-Code)",
+    "extensions": [
+      {
+        "name": "Sim GUI",
+        "libName": "/Users/carolinepickett/Documents/Projects/FoximusPrime/2024-Season---ShowTime/Robot-Code/build/jni/release/libhalsim_gui.dylib",
+        "defaultEnabled": true
+      },
+      {
+        "name": "Use Real DriverStation",
+        "libName": "/Users/carolinepickett/Documents/Projects/FoximusPrime/2024-Season---ShowTime/Robot-Code/build/jni/release/libhalsim_ds_socket.dylib",
+        "defaultEnabled": false
+      }
+    ],
+    "environment": {},
+    "libraryDir": "/Users/carolinepickett/Documents/Projects/FoximusPrime/2024-Season---ShowTime/Robot-Code/build/jni/release",
+    "mainClassName": "frc.robot.Main"
+  }
+]
