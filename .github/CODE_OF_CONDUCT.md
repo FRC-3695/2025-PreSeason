@@ -1,4 +1,4 @@
-# Expectations of Behavior and Contributing to the Code Base
+# Expectations of Behavior and Contributing to the Code
 ## Team Expectations
 ## Contributing to Code Base
 ## Resources
