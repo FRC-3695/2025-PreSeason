@@ -23,3 +23,25 @@
 hs_err_pid*
 replay_pid*
 .DS_Store
+
+##############################
+## Gradle
+##############################
+bin/
+build/
+.gradle
+gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+##############################
+## Visual Studio Code
+##############################
+.vscode/
+.code-workspace
+
+##############################
+## OS X
+##############################
+.DS_Store
