@@ -5,6 +5,7 @@
 `Guides on Git & GitHub`
 - [GitHub Getting Started](https://docs.github.com/en/get-started)
 - [Git Simplified - Video](https://youtu.be/HkdAHXoRtos?si=phwDUfXwC512ukUh)
+- [Git for Dummies - Video](https://youtu.be/mJ-qvsxPHpY?si=_ygu0bVOBUBnXwLt)
 
 `Documentation of WPILib, RevLib, Pheonix Libraries, & LimeLight Vision`
 - [WPILib Documentation - Advanced](https://docs.wpilib.org/en/stable/stubs/advanced-programming-stub.html)
