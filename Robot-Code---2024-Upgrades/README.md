@@ -1,4 +1,4 @@
-# **Season:** 2025 **Competition:** Crescendo
+# **Season:** 2024 **Competition:** Crescendo
 ## Code Health
 ### Development
 [![CodeFactor](https://www.codefactor.io/repository/github/frc-3695/2024-season---crescendo/badge)](https://www.codefactor.io/repository/github/frc-3695/2024-season---crescendo)
