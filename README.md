@@ -9,6 +9,8 @@
 ### Mentor(s)
 - Caroline Pickett [@un-creatrix](https://github.com/un-creatrix)
 - Melissa Pickett
-- Leon Pierce 
+- Leon Pierce
+### Parent Mentor(s)
+- 
 ### Student Mentor(s)
 -
