@@ -4,11 +4,15 @@
 ## Season Notes
 ## Code Notes
 ## Contributors
-### Students
-- 
+### Student(s)
+- Ian McKeever
+- Kathryn Nabours
+- Michael Nabours  [@FoximusMike](https://github.com/FoximusMike)
+- Chris Nendick  [@ChrisNendick](https://github.com/ChrisNendick)
+- Liam Schimdt
 ### Mentor(s)
 - Caroline Pickett [@un-creatrix](https://github.com/un-creatrix)
-- Melissa Pickett
+- Melissa Pickett [@mpickett3695](https://github.com/mpickett3695)
 - Leon Pierce
 ### Parent Mentor(s)
 - 
