@@ -148,8 +148,14 @@ public class Robot extends TimedRobot {
   public void autonomousInit() {
     dash_autoSelected = dash_autoOptions.getSelected(); //Gets Selected Auto Command from DriverStation
   }
+
   @Override
+
+    //Uncomment the line below when you want to run autonomous
+    //auto.driveLine();
   public void autonomousPeriodic() {
+    
+
     switch(dash_autoSelected){
       case dash_auto_1:
         // Shoot into Speaker
