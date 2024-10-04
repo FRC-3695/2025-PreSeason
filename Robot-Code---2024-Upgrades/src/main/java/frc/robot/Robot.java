@@ -146,7 +146,7 @@ public class Robot extends TimedRobot {
   public void disabledExit() {}
   @Override
   public void autonomousInit() {
-    auto.autoStart();
+    auto.moveForward(10,0.5);
     dash_autoSelected = dash_autoOptions.getSelected(); //Gets Selected Auto Command from DriverStation
   }
 
@@ -156,7 +156,10 @@ public class Robot extends TimedRobot {
 
     //Uncomment the line below when you want to run autonomous
     public void autonomousPeriodic() {
+
+      auto.timerCheck();
     
+      System.out.println(auto.m_timer.get());
 
     switch(dash_autoSelected){
       case dash_auto_1:
