@@ -13,7 +13,7 @@ public class auto extends TimedRobot {
 
         public static Timer m_timer = new Timer();
 
-        
+        // THE REASON autoDrive() ISNT WORKING IS BECAUSE I NEED TO ZERO THE DRIVE MOTOR ENCODERS. Just putting this here so i don't forget
 
      
 
