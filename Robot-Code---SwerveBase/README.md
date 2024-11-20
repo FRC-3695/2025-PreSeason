@@ -1,4 +1,4 @@
-# **Swerve** Drivetrain __Base Code__
+# Swerve Drivetrain "Base Code"
 `Purpose of this library is to implement a standardized approch to base swerve code for students to work from, something that can up speed them from time of idea to time of actualization.`
 ## Notes
 Core library this build is centered around is the "YAGSL" with supporting libraries being 
@@ -10,7 +10,7 @@ Core library this build is centered around is the "YAGSL" with supporting librar
     - (Steering) SparkFlex Controller / Vortex Motor Combo
     - (Absolute Encoder) CTRE CANCoder
 - 1 * CTRE Pigeon2
-> Mounted Dead Center
+    > Mounted Dead Center
 ## Code Contributor(s)
 ### Students
 -

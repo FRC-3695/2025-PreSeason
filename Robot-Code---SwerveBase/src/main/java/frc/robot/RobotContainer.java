@@ -4,10 +4,15 @@
 
 package frc.robot;
 
+import frc.robot.Constants;
+
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.Commands;
+import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
 
 public class RobotContainer {
+  final CommandXboxController operatorDriver = new CommandXboxController(Constants.operatorDriver.port);
+  final CommandXboxController operatorManip  = new CommandXboxController(Constants.operatorManip.port);
   public RobotContainer() {
     configureBindings();
   }
