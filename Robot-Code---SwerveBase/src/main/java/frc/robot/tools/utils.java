@@ -1,4 +1,4 @@
-package frc.robot;
+package frc.robot.tools;
 import java.text.DecimalFormat;
 
 //WPILib Libraries
@@ -41,6 +41,5 @@ public class utils {
                 break;
         }
         System.out.println(event);
-
     }
 }
