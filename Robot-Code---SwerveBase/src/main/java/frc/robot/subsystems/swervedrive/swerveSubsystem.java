@@ -36,3 +36,22 @@ import swervelib.parser.SwerveDriveConfiguration;
 import swervelib.parser.SwerveParser;
 import swervelib.telemetry.SwerveDriveTelemetry;
 import swervelib.telemetry.SwerveDriveTelemetry.TelemetryVerbosity;
+
+public class swerveSubsystem extends SubsystemBase {
+    private final SwerveDrive                           swDrive;                                                                        // Swerve Drive Declared
+
+    public swerveSubsystem () {
+        
+    }
+    // -----------------------------------------------------------------------------------    Periodic(s)    ------------------------------------------------------------------------------------
+    public void periodic () {
+
+    }
+    // ----------------------------------------------------------------------------------    Module Control    ----------------------------------------------------------------------------------
+    public Command modulesCenter () {
+        
+    }
+    public void modulesBraking (boolean brake) {                                                                                        // Public Function to enable and disable braking
+        swDrive.setMotorBrake(brake);
+    }
+}
