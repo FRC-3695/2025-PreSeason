@@ -38,9 +38,9 @@ public final class Constants {
         public static final int device_radio                    = 21; // PowerHub Port
     }
     public static class drive {
-        public static final double  tuning_speedMax             = 5;
-        public static final double  slew_drv                    = 1;    // Slew-Rate Limit for Acceletation
-        public static final double  slew_turn                   = 0.5;    // Slew-Rate Limit for Turning
+        public static final double  tuning_speedMax             = 1.50;
+        public static final double  slew_drv                    = 0.30;    // Slew-Rate Limit for Acceletation
+        public static final double  slew_turn                   = 0.10;    // Slew-Rate Limit for Turning
         public static       boolean rev_DT                      = false;  // To be used in future to offer drive reversing to driver
         public static final boolean rev_left                    = true;   // Reverses left drivetrain
         public static final boolean rev_right                   = false;  // Reverses right drivetrain
@@ -56,7 +56,7 @@ public final class Constants {
     public static class shooter {
         public static final double slew_spinUp                  = 0.75;         // Forced Graceful SpinUp to prevent low current events on robot
         public static       double tuning_RPM                   = 4300;         // Motor RPM
-        public static       double tuning_P                     = 0.75;         // Proportional Variable
+        public static       double tuning_P                     = 3.00;         // Proportional Variable
         public static       double tuning_I                     = 0.000;        // Intergral Variable
         public static       double tuning_D                     = 0.03;         // Derivative Variable
         public static       double tuning_Iz                    = 0.000;        // Intergral Variable
@@ -66,7 +66,7 @@ public final class Constants {
     }
     public static class intake {
         public static final double heave_speed                  = 0.40;         // Speed of intake run to self cycle a system recovery for a jammed disc
-        public static final double puke_speed                   = 0.90;         // Speed of intake run to eject disc
+        public static final double puke_speed                   = 1.00;         // Speed of intake run to eject disc
         public static final double feed_speed                   = 0.50;         // Speed of intake run to injest disc
         public static final double feed_rotations               = 4.50;         // Count of rotations to injest disk
         public static final double rotation_deployment          = 0.000;        // Amount of rotation till intake is completly deployed

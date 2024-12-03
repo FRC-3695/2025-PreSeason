@@ -146,7 +146,10 @@ public class Robot extends TimedRobot {
   public void disabledExit() {}
   @Override
   public void autonomousInit() {
-    auto.moveForward(10,0.5);
+    //auto.autoRetract();
+    auto.intakeAuto();
+    //auto.moveForward(10,0.5);
+    //auto.autoDrive();
     dash_autoSelected = dash_autoOptions.getSelected(); //Gets Selected Auto Command from DriverStation
   }
 
@@ -157,9 +160,33 @@ public class Robot extends TimedRobot {
     //Uncomment the line below when you want to run autonomous
     public void autonomousPeriodic() {
 
-      auto.timerCheck();
+
+      //System.out.println(Robot.intake_deploy_DIO.get());
+      //System.out.println(Robot.intake_retract_DIO.get());
+      System.out.println(auto.hasDeployed);
+
+      //auto.intakeAutoBrake();
+      //System.out.println(auto.numCheck);
+
+
+
+      //auto.timerCheck();
+     //// if (Robot.intake_deploy_DIO.get()) {
+        //System.out.println("Deploy DIO is true");
+      //}
+      // if (Robot.intake_retract_DIO.get()) {
+        //System.out.println("Retract DIO is true");
+      //}
+
+
+
+      //Robot.intake_deploy_DIO.get();
     
-      System.out.println(auto.m_timer.get());
+   // System.out.println(auto.m_timer.get());
+    //System.out.println(auto.m_timer2.get());
+      //System.out.println(Robot.drive_left_encoder.getPosition());
+     // System.out.println(Robot.drive_right_encoder.getPosition());
+
 
     switch(dash_autoSelected){
       case dash_auto_1:
